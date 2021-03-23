@@ -25,6 +25,7 @@ esac
 # env variables
 export HISTSIZE=10000
 export HISTFILESIZE=50000
+export HISTCONTROL=ignoreboth
 export EDITOR='nvim'
 export PATH=$HOME/bin:${PATH}
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:'/usr/lib/pkgconfig/'

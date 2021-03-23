@@ -576,3 +576,10 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- }}}
 
 awful.util.spawn("dropbox")
+
+gears.timer.start_new(3600, function()
+  collectgarbage()
+  collectgarbage()
+  collectgarbage()
+  return true
+end)

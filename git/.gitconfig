@@ -3,3 +3,5 @@
 	email = jebdude89@gmail.com
 [push]
 	default = simple
+[pull]
+	rebase = false

@@ -151,6 +151,7 @@ set wildmenu
 
 set scrolloff=5
 
+let g:tex_no_error=1
 
 
 "au VimEnter * RainbowParenthesesToggle
